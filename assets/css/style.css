@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Reset CSS */
+a{
+    text-decoration: none;
+}
+li{
+    float: left;
+    list-style: none;
+}
+/* Header */
+.header{
+	position: relative;
+	justify-content: space-between;
+    display: flex;
+    margin: 0px;
+	padding: 10px 15px;
+}
+.logo{
+    padding: 10px 15px;
+}
+.header-menu{
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    padding-right: 40px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #8262b5;
+}
+.header-icon{
+    padding: 10px 0px 10px 20px;
+    float: left;
+}
+.header-icon .cart{
+    padding-right: 30px;
+}
+.container-fluid hr{
+    margin: 0;
+    padding-bottom: 30px;
+}
+@media (min-width: 1200px){
+	.container{max-width: 1170px;}
+}
+.container{
+	position: relative;
+}
+.banner-left, .banner-right-top, .banner-right-bot{
+    position: relative;
+}
+.banner-button{
+	position: absolute;
+	text-align: center;
+	background-color: #8262b5;
+	color: white;
+	font-size: 12px;
+	border: none;
+    width: 105px;
+	height: 40px;
+}
+.button-left{
+    top: calc(69%);
+	transform: translateY(-50%) translateX(-50%);
+	left:calc(80%);	
+    letter-spacing: 1px;
+}
+.banner-left-text{
+    position: absolute;
+    top: calc(60%);
+    transform: translateY(-60%) translateX(-50%);
+    left: calc(72%);
+    width: 400px;
+}
+.banner-left-text h3{
+	padding: 0;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0;
+	font-family: 'Pacifico', cursive;
+}
+.banner-right-top-text{
+    position: absolute;
+	top: calc(53%);
+	transform: translateY(-50%) translateX(-50%);
+	left: calc(42%);
+	letter-spacing: 0.3px;
+}
+.banner-right-top-text h3, .banner-right-bot h3{
+    padding: 0;
+    font-size: 17px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.banner-right-top-text h2, .banner-right-bot h2{
+    padding: 0;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 0.1px;
+    color: black;
+}
+.banner-right-bot{
+    padding-top: 27px;
+}
+.banner-right-bot-text{
+    position: absolute;
+	top: calc(47%);
+	transform: translateY(-50%) translateX(-50%);
+	left: calc(27%)
+}
+.button-right{
+    top: calc(170%);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(45%);
+    letter-spacing: 1px;
+}
