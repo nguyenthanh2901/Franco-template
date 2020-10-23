@@ -269,7 +269,7 @@
                <div class="blogs-slide">
                    <div class="slide" >
                        <div class="blog-img">
-                           <img src="assets/images/blog1.JPG" alt="">
+                           <a href="#"><img src="assets/images/blog1.JPG" alt=""></a>
                            <div class="blog-time">
                                 <p>Jan 23</p>
                            </div>
@@ -286,7 +286,7 @@
                    </div>
                    <div class="slide" >
                     <div class="blog-img">
-                        <img src="assets/images/blog1.JPG" alt="">
+                        <a href="#"><img src="assets/images/blog2.JPG" alt=""></a>
                         <div class="blog-time">
                              <p>Jan 23</p>
                         </div>
@@ -300,9 +300,10 @@
                      <i class="fa fa-comment-o"> 12</i>  
                      <i class="fa fa-heart-o"> 6</i> 
                     </div>
-                </div><div class="slide" >
+                   </div>
+                   <div class="slide" >
                     <div class="blog-img">
-                        <img src="assets/images/blog1.JPG" alt="">
+                        <a href="#"><img src="assets/images/blog3.JPG" alt=""></a>
                         <div class="blog-time">
                              <p>Jan 23</p>
                         </div>
@@ -316,9 +317,10 @@
                      <i class="fa fa-comment-o"> 12</i>  
                      <i class="fa fa-heart-o"> 6</i> 
                     </div>
-                </div><div class="slide" >
+                   </div>
+                   <div class="slide" >
                     <div class="blog-img">
-                        <img src="assets/images/blog1.JPG" alt="">
+                        <a href="#"><img src="assets/images/blog1.JPG" alt=""></a>
                         <div class="blog-time">
                              <p>Jan 23</p>
                         </div>
@@ -332,9 +334,10 @@
                      <i class="fa fa-comment-o"> 12</i>  
                      <i class="fa fa-heart-o"> 6</i> 
                     </div>
-                </div><div class="slide" >
+                   </div>
+                   <div class="slide" >
                     <div class="blog-img">
-                        <img src="assets/images/blog1.JPG" alt="">
+                        <a href="#"><img src="assets/images/blog2.JPG" alt=""></a>
                         <div class="blog-time">
                              <p>Jan 23</p>
                         </div>
@@ -348,9 +351,10 @@
                      <i class="fa fa-comment-o"> 12</i>  
                      <i class="fa fa-heart-o"> 6</i> 
                     </div>
-                </div><div class="slide" >
+                   </div>
+                   <div class="slide" >
                     <div class="blog-img">
-                        <img src="assets/images/blog1.JPG" alt="">
+                        <a href="#"><img src="assets/images/blog3.JPG" alt=""></a>
                         <div class="blog-time">
                              <p>Jan 23</p>
                         </div>
@@ -364,7 +368,58 @@
                      <i class="fa fa-comment-o"> 12</i>  
                      <i class="fa fa-heart-o"> 6</i> 
                     </div>
-                </div>
+                   </div>
+                   <div class="slide" >
+                    <div class="blog-img">
+                        <a href="#"><img src="assets/images/blog1.JPG" alt=""></a>
+                        <div class="blog-time">
+                             <p>Jan 23</p>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <a href="#">In commodo dolor vitae</a><br>
+                        <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.</p>
+                    </div>
+                    <hr>
+                    <div class="blog-comment">
+                     <i class="fa fa-comment-o"> 12</i>  
+                     <i class="fa fa-heart-o"> 6</i> 
+                    </div>
+                   </div>
+                   <div class="slide" >
+                 <div class="blog-img">
+                     <a href="#"><img src="assets/images/blog2.JPG" alt=""></a>
+                     <div class="blog-time">
+                          <p>Jan 23</p>
+                     </div>
+                 </div>
+                 <div class="blog-content">
+                     <a href="#">In commodo dolor vitae</a><br>
+                     <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.</p>
+                 </div>
+                 <hr>
+                 <div class="blog-comment">
+                  <i class="fa fa-comment-o"> 12</i>  
+                  <i class="fa fa-heart-o"> 6</i> 
+                 </div>
+                   </div>
+                   <div class="slide" >
+                 <div class="blog-img">
+                     <a href="#"><img src="assets/images/blog3.JPG" alt=""></a>
+                     <div class="blog-time">
+                          <p>Jan 23</p>
+                     </div>
+                 </div>
+                 <div class="blog-content">
+                     <a href="#">In commodo dolor vitae</a><br>
+                     <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.</p>
+                 </div>
+                 <hr>
+                 <div class="blog-comment">
+                  <i class="fa fa-comment-o"> 12</i>  
+                  <i class="fa fa-heart-o"> 6</i> 
+                 </div>
+                   </div>
                </div>
            </div>
 
@@ -435,10 +490,11 @@
         </footer>
     </div>
     <!-- end footer-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script>
     $('.blogs-slide').slick({
+        dots:true,
         slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: false,
