@@ -56,6 +56,10 @@ li{
 .banner-left, .banner-right-top, .banner-right-bot{
     position: relative;
 }
+.banner-left img{
+    max-width: 100%;
+    width: 100%;
+}
 .banner-button{
 	position: absolute;
 	text-align: center;
@@ -107,6 +111,10 @@ li{
     letter-spacing: 0.1px;
     color: black;
 }
+.banner-right-top img, .banner-right-bot img{
+    max-width: 100%;
+    width: 100%;
+}
 .banner-right-bot{
     padding-top: 27px;
 }
@@ -149,6 +157,10 @@ li{
     display: flex;
     justify-content: center;
     padding-bottom: 16px;
+}
+.item-img img{
+    max-width: 100%;
+    width: 100%;
 }
 button.add-cart{
     width: 118px;
@@ -220,6 +232,7 @@ h4.item-name{
     text-align: center;
     margin: 0 auto;
     border-top: 2px solid #8262b5;
+    padding-bottom: 42px;
 }
 button.add-cart:hover{
     color: #8262b5;
@@ -287,16 +300,20 @@ hr.bot-footer{
 }
 .blogs-slide{
     padding: 0px;
+    padding-bottom: 110px;
 }
 .slide{
     position: relative;
 	margin: 0 auto;
-	width: 360px;
+	width: 360px !important;
     max-width: 100%;
-    background: white;
+    display: inline-block;
 }
 .blog-img{
     position: relative;
+}
+.blog-img img{
+    max-width: 100%;
 }
 .blog-time{
 	position: absolute;
@@ -325,6 +342,7 @@ hr.bot-footer{
     position: relative;
     padding: 14px 20px 18px 20px;
     text-align: left;
+    background: white;
 }
 .blog-content a{
 	color: #262626;
@@ -338,15 +356,17 @@ hr.bot-footer{
 }
 .slide hr{
     margin: 0 0;
-    padding-bottom: 14px;
+    padding-bottom: 0;
     width: 100%; 
     border-top: 1px solid #ededed;
 }
 .blog-comment{
     margin-top: 0;
+    padding-top: 14px;
    padding-left: 20px;
    padding-bottom: 14px;
     text-align: left;
+    background: white;
 }
 .blog-comment i{
     padding-right: 25px;
