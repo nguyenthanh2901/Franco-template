@@ -46,17 +46,23 @@ li{
     margin: 0;
     padding-bottom: 30px;
 }
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
 @media (min-width: 1200px){
 	.container{
         max-width: 1170px;
     }
 }
-@media (max-width: 1200px){
-	.container{
-        max-width: 1170px;
-    }
-    
-}
+
 @media (max-width: 1354px){
     .header{
         justify-content: center;
@@ -168,7 +174,7 @@ li{
     border-bottom: 1px solid #8262b5;
 }
 .item-img{
-    display: flex;
+    position: relative;
     justify-content: center;
     padding-bottom: 16px;
 }
@@ -182,7 +188,7 @@ button.add-cart{
     position: absolute;
     letter-spacing: 0.5px;
     top: 275px;
-	left: 19px;
+	left: 15px;
     background: #fff;
     border: none;
     text-align: center;
@@ -303,7 +309,7 @@ hr.hr-name1{
 }
 /* footer */
 .col-right-footer{
-    margin-left: 100px;
+    margin-left: auto;
 }
 .right-footer-text{
     line-height: 2;
@@ -446,7 +452,7 @@ button.add-cart{
     position: absolute;
     letter-spacing: 0.5px;
     top: 285px;
-    left: 19px;
+    left: 15px;
     background: #fff;
     border: none;
     text-align: center;
@@ -465,7 +471,7 @@ hr.hr-name{
     width: 200px;
 }
 .col-right-footer{
-    width: 200px;
+    width: 100%;
 }
 .slide {
     position: relative;
@@ -481,13 +487,19 @@ hr.hr-name{
 .banner-left{
         padding-bottom: 30px;
     }
+    .banner-right-top-text h3{
+        font-size: 11px;
+    }
+    .banner-right-top-text h2{
+        font-size: 12px !important;
+    }
 button.add-cart{
         width: 80px;
     height: 30px;
     position: absolute;
     letter-spacing: 0.5px;
-    top: 285px;
-    left: 65px;
+    top: 370px !important;
+    left: 10px;
     background: #fff;
     border: none;
     text-align: center;
@@ -496,11 +508,19 @@ button.add-cart{
     font-weight: 450;
     color: black;
     }
+    hr.hr-name {
+        width: 100%;
+    }
+.copyright-foot {
+        padding-bottom: 30px;
+        font-size: 13px;
+    }
 .navbar-light .navbar-nav .nav-link{
         padding-right: 10px;
     }
 .item-content{
-    padding-left: 40px;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 30px;
 }
 .banner-left-text h3{
@@ -534,28 +554,68 @@ button.add-cart{
 
 }
 @media (max-width: 767px){
+    .banner-left-text {
+        position: absolute;
+        top: calc(55%);
+        transform: translateY(-60%) translateX(-50%);
+        left: calc(67%);
+        width: auto;
+        max-width: 200px;
+
+    }
+    .banner-left-text h3 {
+        padding: 0;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 0;
+        font-family: 'Pacifico', cursive;
+        padding-bottom: 20px;
+    }
 .navbar-light .navbar-nav .nav-link{
     padding-right: 0;
     font-size: 12px;
+}
+.copyright-foot {
+    padding-bottom: 10px !important;
+}
+.copyright-foot, .foot-icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px !important;
+}
+.foot-icon i{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.banner-right-top-text h3{
+    font-size: 20px;
+}
+.banner-right-bot h2{
+    font-size: 30px;
+}
+.item-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 30px;
 }
 .header-menu{
     font-weight: 600;
 }
 hr.hr-name {
-    width: 400px;
+    width: 100%;
 }
 hr.hr-name1 {
-    width: 400px;
+    width: 100%;
 }
 .col-right-footer {
-    margin-left: 0;
+    margin: 0;
 }
 button.add-cart {
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     position: absolute;
     letter-spacing: 0.5px;
-    top: 255px;
+    top: 570px !important;
     left: 20px;
     background: #fff;
     border: none;
@@ -565,26 +625,48 @@ button.add-cart {
     font-weight: 450;
     color: black;
 }
+p.content-name{
+    padding: 0 0;
+}
+hr.hr-name {
+    width: 100%;
+}
+}
+@media (max-width: 1200px){
+    button.add-cart{
+        top: 220px;
+    }
+    .banner-right-top-text h2, .banner-right-bot h2 {
+        padding: 0;
+        font-weight: 900;
+        font-size: 17px;
+        margin: 0;
+        letter-spacing: 0.1px;
+        color: black;
+    }
 }
 @media (max-width: 576px){
     hr.hr-name {
-        width: 200px;
+        width: 100%;
     }
     hr.hr-name1 {
-        width: 200px;
+        width: 100%;
+    }
+    .copyright-foot {
+        padding-bottom: 10px !important;
     }
     button.add-cart {
-        width: 80px;
-        height: 30px;
+        width: 100px;
+        height: 40px;
         position: absolute;
         letter-spacing: 0.5px;
-        top: 160px;
+        top: 570px !important;
         left: 20px;
         background: #fff;
         border: none;
         text-align: center;
         text-transform: uppercase;
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 450;
         color: black;
     }
