@@ -660,7 +660,7 @@ hr.hr-name {
         height: 40px;
         position: absolute;
         letter-spacing: 0.5px;
-        top: 570px !important;
+        top: 530px !important;
         left: 20px;
         background: #fff;
         border: none;
@@ -718,5 +718,16 @@ span.aht{
         font-size: 10px;
         font-weight: 450;
         color: black;
+    }
+}
+@media (max-width:500px){
+    button.add-cart {
+        top: 400px !important;
+    }
+}
+@media (max-width:400px){
+    button.add-cart {
+        top: 300px !important;
+        left: 15px;
     }
 }
