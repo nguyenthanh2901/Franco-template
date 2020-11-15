@@ -20,7 +20,7 @@ li{
 	justify-content: space-between;
     display: flex;
     margin: 0px;
-	padding: 10px 0;
+	padding: 7px 0;
 }
 .logo{
     padding: 10px;
@@ -30,21 +30,21 @@ li{
 }
 .navbar-light .navbar-nav .nav-link{
     color: black;
-    padding-right: 40px;
 }
 .navbar-light .navbar-nav .nav-link.active{
     color: #8262b5;
 }
 .header-icon{
-    padding: 10px 0px 10px 20px;
+    padding: 10px 5px 10px 15px;
     float: left;
 }
 .header-icon .cart{
     padding-right: 30px;
 }
+
 .container-fluid hr{
     margin: 0;
-    padding-bottom: 25px;
+    padding-bottom: 31px;
 }
 .navbar {
     position: relative;
@@ -97,7 +97,7 @@ li{
 }
 .banner-left-text{
     position: absolute;
-    top: calc(60%);
+    top: calc(61%);
     transform: translateY(-60%) translateX(-50%);
     left: calc(72%);
     width: 400px;
@@ -151,7 +151,7 @@ li{
 }
 /*items*/
 .items{
-    padding-top: 80px;
+    padding-top: 75px;
     padding-bottom: 35px;
 }
 .items h4{
@@ -159,7 +159,8 @@ li{
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 6px;
-    font-weight: 600;
+    font-weight: 700;
+    padding-bottom: 5px;
 }
 .items h1{
     text-transform: uppercase;
@@ -493,7 +494,7 @@ button.add-cart{
 }
 li.nav-item{
     display: inline-block;
-    padding-top:7px;
+    padding-top:4px;
 
 }
 .header-menu{
@@ -501,8 +502,8 @@ li.nav-item{
     width: 100%;
 }
 .navbar-light .navbar-nav .nav-link{
-    padding-right: 28px;
-    padding-left: 30px;
+    padding-right: 27px;
+    padding-left: 28px;
     font-size: 14px;
 }
 hr.hr-name1{
@@ -795,4 +796,8 @@ span.aht{
         top: 300px !important;
         left: 15px;
     }
+}
+
+@media (width:1920px){
+
 }
