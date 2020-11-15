@@ -337,6 +337,7 @@ h3.name {
 hr.hr-name-2 {
     width: 260px;
     border-top: 1px solid #727272;
+    padding-bottom: 20px;
 }
 
 hr.hr-name {
@@ -399,7 +400,7 @@ hr.hr-name1 {
 }
 
 hr.bot-footer {
-    margin-top: 25px;
+    margin-top: 33px;
     border-top: 1px solid #727272;
 }
 
@@ -601,10 +602,12 @@ hr.bot-footer {
     }
     hr.hr-name1 {
         width: 260px;
+        padding-bottom: 20px;
     }
     hr.hr-name {
         width: 200px;
         margin-left: 100px;
+        padding-bottom: 20px;
     }
     .col-right-footer {
         width: 100%;
